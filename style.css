@@ -1,6 +1,4 @@
-body {
-  background: red !important;
-}
+
 
 :root {
   --bg: #0b132b;
@@ -110,4 +108,5 @@ body {
   color: var(--accent);
   text-decoration: none;
 }
+
 
