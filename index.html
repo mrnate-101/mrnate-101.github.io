@@ -4,66 +4,103 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nathaniel Gyarteng</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <meta name="description" content="Nathaniel Gyarteng – Author, Mentor, Builder." />
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-  <header class="navbar">
-    <h1>Nathaniel Gyarteng</h1>
-    <button id="theme-toggle">🌙</button>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">Nathaniel Gyarteng</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <img src="nateprofile.jpg" alt="Nathaniel " />
-    <div class="hero-text">
-      <h2>Author • Mentor • Builder</h2>
-      <p>
-        I write to help people gain clarity, confidence, and direction in life,
-        education, and systems.
-      </p>
-      <div class="buttons">
-        <a href="#books" class="btn">📚 Buy My Books</a>
-        <a href="#support" class="btn secondary">❤️ Support My Work</a>
+  <!-- HERO -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Author. Mentor. Builder.</h1>
+        <p>
+          I help students and young professionals gain clarity, confidence, and direction through structure, preparation, and mindset.
+        </p>
+        <div class="hero-actions">
+          <a href="#book" class="btn primary">Read My Book</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="books" class="section">
-    <h2>Books</h2>
-
-    <div class="book-card">
-      <h3>Visa Interview Confidence</h3>
-      <p>
-        A practical guide to mastering visa interviews with clarity,
-        preparation, and confidence.
-      </p>
-      <a href="#" class="btn">Buy Book</a>
+  <!-- BOOK SECTION -->
+  <section class="book-section" id="book">
+    <div class="section-container">
+      <div class="book-card">
+        <!-- Add book cover image here -->
+        <!-- <img src="visa-interview-confidence.jpg" alt="Visa Interview Confidence book cover" /> -->
+        <h2>Visa Interview Confidence</h2>
+        <p>
+          A practical guide that teaches you how visa officers think, how to answer clearly, and how to walk into your interview calm and prepared.
+        </p>
+        <a href="#" class="btn primary">Buy / Download</a>
+      </div>
     </div>
   </section>
 
-  <section id="support" class="section">
-    <h2>Support My Work</h2>
-    <p>
-      If my work has helped or inspired you, you can support it through a
-      donation.
-    </p>
-    <a href="#" class="btn secondary">Donate</a>
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="section-container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I am a mathematics undergraduate, cybersecurity learner, and digital creator. My work focuses on preparation, discipline, and helping people present themselves with confidence in high‑stakes situations.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 Nathaniel Gyarteng</p>
-    <div class="socials">
-      <a href="#">YouTube</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-      <a href="#">LinkedIn</a>
+  <!-- WORK -->
+  <section class="work-section" id="work">
+    <div class="section-container">
+      <h2>What I Do</h2>
+      <div class="work-grid">
+        <div class="work-card">Visa Interview Education & Coaching</div>
+        <div class="work-card">Cybersecurity & Technical Learning</div>
+        <div class="work-card">Content Creation & Mentorship</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="section-container">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <p>Email: <strong>contact@nathanielgyarteng.com</strong></p>
+        <p>YouTube • Instagram • LinkedIn</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      © 2025 Nathaniel Gyarteng. All rights reserved.
     </div>
   </footer>
 
-  <script src="js.js"></script>
 </body>
 </html>
-
-
-
-
