@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nathaniel Gyarteng</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to NathanielGyarteng.com</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Books</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+  <header class="navbar">
+    <h1>Nathaniel Gyarteng</h1>
+    <button id="theme-toggle">🌙</button>
   </header>
 
-  <main>
-    <section class="books">
-      <h2>My Books</h2>
-      <div class="book">
-        <img src="images/book1.jpg" alt="Book 1">
-        <h3>Book Title</h3>
-        <p>Short description of the book...</p>
-        <button>Buy Now</button>
+  <section class="hero">
+    <img src="profile.jpg" alt="Nathaniel Gyarteng" />
+    <div class="hero-text">
+      <h2>Author • Thinker • Builder</h2>
+      <p>
+        I write to help people gain clarity, confidence, and direction in life,
+        education, and systems.
+      </p>
+      <div class="buttons">
+        <a href="#books" class="btn">📚 Buy My Books</a>
+        <a href="#support" class="btn secondary">❤️ Support My Work</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Nathaniel Gyarteng</p>
+  <section id="books" class="section">
+    <h2>Books</h2>
+
+    <div class="book-card">
+      <h3>Visa Interview Confidence</h3>
+      <p>
+        A practical guide to mastering visa interviews with clarity,
+        preparation, and confidence.
+      </p>
+      <a href="#" class="btn">Buy Book</a>
+    </div>
+  </section>
+
+  <section id="support" class="section">
+    <h2>Support My Work</h2>
+    <p>
+      If my work has helped or inspired you, you can support it through a
+      donation.
+    </p>
+    <a href="#" class="btn secondary">Donate</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Nathaniel Gyarteng</p>
+    <div class="socials">
+      <a href="#">YouTube</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
   </footer>
 
   <script src="js.js"></script>
