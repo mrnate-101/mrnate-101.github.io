@@ -60,6 +60,52 @@ a { text-decoration: none; color: inherit; }
   color: #555;
 }
 
+
+/* HERO SECTION – Lv */
+.hero-section {
+  position: relative;
+  height: 90vh;
+  background-image: url("images/hero-lifestyle.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-container {
+  position: relative;
+  max-width: 1200px;
+  padding: 0 40px;
+  z-index: 2;
+}
+
+.hero-text {
+  max-width: 520px;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+
 /* ============================= */
 /* HERO SECTION */
 /* ============================= */
@@ -209,4 +255,5 @@ a { text-decoration: none; color: inherit; }
     align-items: center;
   }
 }
+
 
