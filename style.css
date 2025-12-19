@@ -10,8 +10,14 @@ body {
 }
 a { text-decoration: none; color: inherit; }
 
-
-
+/* brand */
+.brand {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 200px;           /* Example height for visibility */
+  border: 1px solid black
+    
 /* BUTTONS */
 .btn {
   display: inline-block;
@@ -257,6 +263,7 @@ a { text-decoration: none; color: inherit; }
     align-items: center;
   }
 }
+
 
 
 
