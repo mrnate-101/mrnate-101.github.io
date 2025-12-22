@@ -4,21 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Nathaniel Gyarteng</title>
-  <meta name="description" content="Data Analytics Portfolio of Nathaniel Gyarteng – Python, SQL, Statistics, Dashboards">
-  <link rel="stylesheet" href="style.css"> <!-- Reuse your existing CSS -->
+  <meta name="description" content="Data Analytics Portfolio – Python, SQL, Dashboards, Insights">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Data Analytics Portfolio | Nathaniel Gyarteng">
+  <meta property="og:description" content="Showcasing real-world data projects in analytics, visualization, and insights.">
+  <meta property="og:image" content="https://nathanielgyarteng.com/1218(1).jpg">
+  <meta property="og:url" content="https://nathanielgyarteng.com/portfolio.html">
+  <meta property="og:type" content="website">
+  <!-- Google Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Same Header as index.html -->
+  <!-- HEADER (Same as index.html) -->
   <header class="site-header">
     <div class="header-container">
       <div class="brand"><a href="/">Nathaniel Gyarteng</a></div>
       <nav class="nav">
         <a href="/">Home</a>
-        <a href="#books">Books</a>
+        <a href="/#books">Books</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="#youtube-shorts">YouTube</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="/#youtube-shorts">YouTube</a>
+        <a href="/#about">About</a>
+        <a href="/#contact">Contact</a>
       </nav>
       <button class="menu-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
@@ -26,35 +36,90 @@
     </div>
   </header>
 
-  <section class="portfolio-hero" style="padding: 100px 20px; text-align: center; background: #f9f9f9;">
+  <!-- PORTFOLIO HERO -->
+  <section class="portfolio-hero">
     <h1>Data Analytics Portfolio</h1>
-    <p>Turning raw data into actionable insights using Python, SQL, and statistical analysis.</p>
-    <p>Mathematics Undergraduate | Expected Graduation: May 2026 | GPA: 3.8</p>
+    <p>Turning raw data into actionable insights with Python, SQL, Pandas, Seaborn, Plotly, and more.</p>
+    <p>Mathematics Undergraduate • Expected Graduation: May 2026 • GPA: 3.8</p>
   </section>
 
-  <section class="projects-section" style="padding: 80px 20px; max-width: 1200px; margin: 0 auto;">
-    <h2 style="text-align: center; margin-bottom: 50px;">Featured Projects</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
-      
-      <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-        <h3>Student Performance Analytics Dashboard</h3>
-        <p>Analyzed exam scores of 1,000+ students to identify key factors affecting performance. Built interactive visualizations showing impact of study habits and parental education.</p>
-        <p><strong>Tools:</strong> Python (Pandas, Seaborn), Jupyter</p>
-        <p><strong>Result:</strong> Identified interventions that could improve average scores by 15–20%</p>
-        <a href="#" style="color: #007bff;">View Project →</a> <!-- Add GitHub link later -->
+  <!-- PROJECTS SECTION -->
+  <section class="projects-section">
+    <div class="projects-container">
+      <!-- Project 1: General Analytics Dashboard -->
+      <div class="project-card">
+        <img src="https://towardsdatascience.com/wp-content/uploads/2021/06/1-9FgQrCfkIHqmZcT0Wyr8Q.png" alt="Interactive Analytics Dashboard with Plotly and Dash" loading="lazy">
+        <div class="project-info">
+          <h3>Real-Time Analytics Dashboard</h3>
+          <p>Built an interactive web dashboard to track key metrics using Plotly Dash. Features dynamic filtering, real-time updates, and customizable visualizations for business decision-making.</p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Plotly</span>
+            <span>Dash</span>
+            <span>Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo →</a>
+            <a href="#" target="_blank">GitHub →</a>
+          </div>
+        </div>
       </div>
 
-      <!-- Add 2–3 more project cards here as you build them -->
+      <!-- Project 2: Student Performance Analysis -->
+      <div class="project-card">
+        <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2023/04/comparison-of-student-attributes.png" alt="Student Performance Comparison Bar Charts" loading="lazy">
+        <div class="project-info">
+          <h3>Student Performance Analysis</h3>
+          <p>Analyzed exam scores of 1,000+ students to uncover factors influencing academic success. Created visualizations revealing impact of study habits, parental education, and preparation courses.</p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Seaborn</span>
+            <span>Matplotlib</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">View Analysis →</a>
+            <a href="#" target="_blank">GitHub →</a>
+          </div>
+        </div>
+      </div>
 
+      <!-- Project 3: Cybersecurity Threat Dashboard -->
+      <div class="project-card">
+        <img src="https://www.splunk.com/content/dam/splunk2/en_us/images/screenshots/products/category-security/securityposture-es.png" alt="Splunk Security Posture Dashboard" loading="lazy">
+        <div class="project-info">
+          <h3>Security Operations Dashboard (SOC Lab)</h3>
+          <p>Designed a real-time threat detection dashboard using Splunk SIEM concepts in a home lab environment. Monitored logs, identified anomalies, and visualized attack patterns.</p>
+          <div class="project-tags">
+            <span>Splunk</span>
+            <span>SIEM</span>
+            <span>Cybersecurity</span>
+            <span>Log Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">View Dashboard →</a>
+            <a href="#" target="_blank">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more projects here as you build them -->
     </div>
   </section>
 
+  <!-- FOOTER (Same as index.html) -->
   <footer class="site-footer">
     <div class="footer-container">
       <p>© 2025 Nathaniel Gyarteng. All rights reserved.</p>
+      <div class="trust-badges">
+        <img src="https://d35z3p2poghz10.cloudfront.net/apps/thirdparty/infiniteapps-trust-badges/badges-screen2new.png" alt="Secure Payment">
+        <img src="https://www.shutterstock.com/image-vector/90-days-money-back-guarantee-260nw-2285560069.jpg" alt="Money Back Guarantee">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/002/858/826/small/shiny-golden-luxury-trust-badges-free-vector.jpg" alt="Instant Download">
+      </div>
     </div>
   </footer>
 
+  <!-- JavaScript (Same as index.html) -->
   <script src="script.js"></script>
 </body>
 </html>
