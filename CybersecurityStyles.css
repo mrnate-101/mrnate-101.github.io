@@ -1,0 +1,94 @@
+/* Reset and Base Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #0f1217;
+}
+a { color: #00bfff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Header/Hero */
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/background.jpg') center/cover no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #00bfff;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+header h1 { font-size: 3rem; margin-bottom: 10px; }
+header p { font-size: 1.5rem; margin-bottom: 20px; }
+.social-links a { margin: 0 15px; font-size: 1.2rem; }
+
+/* Sections */
+section { padding: 80px 0; }
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #00bfff;
+}
+.about p { max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; }
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+.project-card {
+    background: #1a1f2b;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+}
+.project-card:hover { transform: translateY(-10px); }
+.project-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.project-content {
+    padding: 20px;
+}
+.project-content h3 { font-size: 1.4rem; margin-bottom: 10px; color: #00bfff; }
+.tags {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+.tags span {
+    background: #2c3444;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+/* Certifications */
+.certs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cert-item { text-align: center; }
+
+/* Footer */
+footer {
+    background: #0a0d12;
+    padding: 40px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+}
