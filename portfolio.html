@@ -3,51 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Nathaniel Gyarteng</title>
+  <title>Nathaniel Gyarteng | Data Analyst Portfolio</title>
   <meta name="description" content="Data Analytics Portfolio – Python, SQL, Dashboards, Insights">
   <!-- Open Graph -->
   <meta property="og:title" content="Data Analytics Portfolio | Nathaniel Gyarteng">
   <meta property="og:description" content="Showcasing real-world data projects in analytics, visualization, and insights.">
-  <meta property="og:image" content="https://nathanielgyarteng.com/1218(1).jpg">
+  <meta property="og:image" content="https://nathanielgyarteng.com/images/nateprofile.jpg">
   <meta property="og:url" content="https://nathanielgyarteng.com/portfolio.html">
   <meta property="og:type" content="website">
-  <!-- Google Fonts & CSS -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- HEADER (Same as index.html) -->
-  <header class="site-header">
-    <div class="header-container">
-      <div class="brand"><a href="/">Nathaniel Gyarteng</a></div>
-      <nav class="nav">
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="/" class="brand">Nathaniel Gyarteng</a>
+      <div class="nav-links">
         <a href="/">Home</a>
-        <a href="/#books">Books</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="visa-insights.html">VisaInsights<a>
-        <a href="/#youtube-shorts">YouTube</a>
-        <a href="/#about">About</a>
-        <a href="/#contact">Contact</a>
-      </nav>
-      <button class="menu-toggle" aria-label="Toggle navigation">
+        <a href="#projects">Projects</a>
+        <a href="visa-insights.html">Visa Insights</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
     </div>
-  </header>
+  </nav>
 
- <!-- PORTFOLIO HERO -->
-  <section class="portfolio-hero">
-    <div class="hero-content" style="text-align: center; padding: 60px 20px; background: linear-gradient(to bottom, rgba(37,99,235,0.05), transparent);">
-      <img src="images/nateprofile.jpg" alt="Nathaniel Addai Gyarteng" class="hero-headshot">
-      <h1>Data Analytics Portfolio</h1>
-      <p style="font-size: 1.3rem; max-width: 800px; margin: 20px auto;">Turning raw data into actionable insights with Python, SQL, Pandas, Seaborn, Plotly, and more.</p>
-      <p style="font-size: 1.1rem; color: #4b5563;">Mathematics Undergraduate • Expected Graduation: May 2026 • GPA: 3.84</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="images/nateprofile.jpg" alt="Nathaniel Gyarteng" class="headshot">
+      <h1>Data Analyst Portfolio</h1>
+      <p class="tagline">Turning raw data into actionable insights</p>
+      <p class="subtitle">Mathematics Undergraduate • Glenville State University • Expected May 2026 • GPA 3.84</p>
+      <div class="hero-links">
+        <a href="mailto:nathanielgyarteng@gmail.com" class="btn-primary">Get in Touch</a>
+        <a href="Nathaniel_Gyarteng_Resume.pdf" class="btn-secondary" target="_blank">Download Resume</a>
+      </div>
     </div>
   </section>
 
-  <!-- PROJECTS SECTION -->
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <!-- Student Performance -->
+      <div class="project">
+        <div class="project-gallery">
+          <img src="portfolio_images/test-prep-impact.png" alt="Test Prep Impact">
+          <img src="portfolio_images/parental-education.png" alt="Parental Education Effect">
+          <img src="portfolio_images/gender-comparison.png" alt="Gender Scores">
+          <img src="portfolio_images/correlation-heatmap.png" alt="Score Correlations">
+        </div>
+        <div class="project-info">
+          <h3>Student Performance Insights</h3>
+          <p>Analyzed 1,000+ student records. Found test preparation increases math scores by <strong>14.1 points</strong>. Uncovered strong parental education correlation.</p>
+          <div class="tags">
+            <span>Python</span><span>Pandas</span><span>Seaborn</span><span>Statistics</span>
+          </div>
+          <div class="links">
+            <a href="https://colab.research.google.com/drive/1IVjW2rM9m2NWg7tA-_HilI6yO8BvCWCU" target="_blank">Colab Notebook →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- F-1 Visa Analysis -->
+      <div class="project reverse">
+        <div class="project-gallery">
+          <img src="visa-insights_images/F1_denial_over_the_years.png" alt="Denial Trend">
+          <img src="visa-insights_images/F1_denial_rate_Region.png" alt="Regional Rates">
+          <img src="visa-insights_images/visa-issuances-2024.png" alt="Top Issuances">
+          <img src="visa-insights_images/Common_Denials(Estimated).png" alt="Denial Reasons">
+        </div>
+        <div class="project-info">
+          <h3>U.S. F-1 Visa Success Rate Analysis</h3>
+          <p>Explored State Department FY2024 data: 41% global denial rate. Visualized regional trends and primary refusal reasons under Section 214(b).</p>
+          <div class="tags">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Public Data</span>
+          </div>
+          <div class="links">
+            <a href="https://colab.research.google.com/drive/1xyVT_KxEtiGO1yuq5bYdcAwCq55lFnfn" target="_blank">Colab Notebook →</a>
+            <a href="visa-insights.html">Full Analysis →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS SECTION -->
   <section class="projects-section">
     <div class="projects-container">
       <!-- Project 1: General Analytics Dashboard -->
@@ -141,15 +188,23 @@
     </div>
   </div>
 </div>
+    </div>
+  </section>
 
-  <!-- FOOTER (Same as index.html) -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <p>© 2025 Nathaniel Gyarteng. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Nathaniel Gyarteng. Built with care.</p>
+      <div class="social">
+        <a href="https://linkedin.com/in/nathaniel-a-gyarteng" target="_blank">LinkedIn</a>
+        <a href="https://github.com/mrnate-101" target="_blank">GitHub</a>
+      </div>
     </div>
   </footer>
 
-  <!-- JavaScript (Same as index.html) -->
   <script src="script.js"></script>
 </body>
 </html>
+
+ 
+
