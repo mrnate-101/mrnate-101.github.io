@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nathaniel Gyarteng | Data Analyst Portfolio</title>
-  <meta name="description" content="Data Analytics Portfolio – Python, SQL, Dashboards, Insights">
+  <meta name="description" content="Data Analyst Portfolio – Python, SQL, Dashboards, Insights">
   <!-- Open Graph -->
-  <meta property="og:title" content="Data Analytics Portfolio | Nathaniel Gyarteng">
-  <meta property="og:description" content="Showcasing real-world data projects in analytics, visualization, and insights.">
+  <meta property="og:title" content="Data Analyst Portfolio | Nathaniel Gyarteng">
+  <meta property="og:description" content="Real-world data projects in analytics, visualization, and insights.">
   <meta property="og:image" content="https://nathanielgyarteng.com/images/nateprofile.jpg">
   <meta property="og:url" content="https://nathanielgyarteng.com/portfolio.html">
   <meta property="og:type" content="website">
@@ -23,9 +23,10 @@
     <div class="nav-container">
       <a href="/" class="brand">Nathaniel Gyarteng</a>
       <div class="nav-links">
-        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="visa-insights.html">Visa Insights</a>
         <a href="#contact">Contact</a>
       </div>
       <button class="menu-toggle" aria-label="Toggle menu">
@@ -34,170 +35,172 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
       <img src="images/nateprofile.jpg" alt="Nathaniel Gyarteng" class="headshot">
-      <h1>Data Analyst Portfolio</h1>
-      <p class="tagline">Turning raw data into actionable insights</p>
+      <h1>Nathaniel Gyarteng</h1>
+      <p class="tagline">Data Analyst | Turning Data into Actionable Insights</p>
       <p class="subtitle">Mathematics Undergraduate • Glenville State University • Expected May 2026 • GPA 3.84</p>
-      <div class="hero-links">
-        <a href="mailto:nathanielgyarteng@gmail.com" class="btn-primary">Get in Touch</a>
-        <a href="Nathaniel_Gyarteng_Resume.pdf" class="btn-secondary" target="_blank">Download Resume</a>
+      <div class="hero-actions">
+        <a href="Nathaniel_Resume.pdf" class="btn-primary" download>Download Resume (PDF)</a>
+        <a href="mailto:nathanielgyarteng@gmail.com" class="btn-secondary">Get in Touch</a>
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Aspiring Data Analyst with hands-on experience in Python, SQL, and interactive dashboards. Skilled in cleaning data, uncovering trends, and building visualizations that drive decisions.</p>
+      <p>Currently analyzing student performance and visa data while leading financial tracking for student government. CompTIA Security+ certified with a growing interest in security analytics.</p>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section id="skills" class="section bg-light">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming & Analytics</h3>
+          <ul>
+            <li>Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly Dash)</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Data Tools</h3>
+          <ul>
+            <li>Jupyter Notebook</li>
+            <li>Excel, Google Sheets</li>
+            <li>Tableau, Power BI</li>
+            <li>Plotly Dash</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Databases & Concepts</h3>
+          <ul>
+            <li>PostgreSQL, MySQL</li>
+            <li>ETL Pipelines (Basics)</li>
+            <li>Data Visualization, Statistical Analysis, Trend Identification, Metrics Tracking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Data Analyst <span>— Esther’s Excellence Academy (Remote)</span></h3>
+          <p class="date">2024 – Present</p>
+          <ul>
+            <li>Designed performance tracking systems using Excel, Google Sheets, and Python</li>
+            <li>Built weekly dashboards and trend reports for attendance and growth</li>
+            <li>Delivered recommendations that optimized instructional strategies</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>Treasurer <span>— Student Government Association, Glenville State University</span></h3>
+          <p class="date">2024 – Present</p>
+          <ul>
+            <li>Managed $8,000 budget with Excel-based financial models</li>
+            <li>Generated reports for leadership and ensured fiscal accountability</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>U.S. F-1 Visa Interview Coach (1-on-1) <span>— Founder (Online)</span></h3>
+          <p class="date">2024 – Present</p>
+          <ul>
+            <li>Coached 15+ clients with data-informed strategies</li>
+            <li>Tracked outcomes to refine frameworks and improve success rates</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>Teaching Assistant — Mathematics & Statistics <span>— Glenville State University</span></h3>
+          <p class="date">2023 – Present</p>
+          <ul>
+            <li>Supported 50+ students per semester; improved exam performance by 20–30%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section bg-light">
     <div class="container">
       <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Interactive Sales Dashboard -->
+        <div class="project-card">
+          <img src="https://towardsdatascience.com/wp-content/uploads/2021/06/1-9FgQrCfkIHqmZcT0Wyr8Q.png" alt="Sales Dashboard">
+          <div class="project-info">
+            <h3>Interactive Sales Dashboard (Plotly Dash)</h3>
+            <p>End-to-end dashboard analyzing retail sales, profit trends, and regional performance. Identified Technology as top revenue driver (36%).</p>
+            <div class="tags">
+              <span>Python</span><span>Plotly Dash</span><span>Pandas</span>
+            </div>
+          </div>
+        </div>
 
-      <!-- Student Performance -->
-      <div class="project">
-        <div class="project-gallery">
-          <img src="portfolio_images/test-prep-impact.png" alt="Test Prep Impact">
-          <img src="portfolio_images/parental-education.png" alt="Parental Education Effect">
-          <img src="portfolio_images/gender-comparison.png" alt="Gender Scores">
-          <img src="portfolio_images/correlation-heatmap.png" alt="Score Correlations">
-        </div>
-        <div class="project-info">
-          <h3>Student Performance Insights</h3>
-          <p>Analyzed 1,000+ student records. Found test preparation increases math scores by <strong>14.1 points</strong>. Uncovered strong parental education correlation.</p>
-          <div class="tags">
-            <span>Python</span><span>Pandas</span><span>Seaborn</span><span>Statistics</span>
+        <!-- Student Performance -->
+        <div class="project-card">
+          <div class="project-gallery">
+            <img src="portfolio_images/test-prep-impact.png" alt="Test Prep Impact">
+            <img src="portfolio_images/parental-education.png" alt="Parental Education">
+            <img src="portfolio_images/gender-comparison.png" alt="Gender Scores">
+            <img src="portfolio_images/correlation-heatmap.png" alt="Correlations">
           </div>
-          <div class="links">
-            <a href="https://colab.research.google.com/drive/1IVjW2rM9m2NWg7tA-_HilI6yO8BvCWCU" target="_blank">Colab Notebook →</a>
+          <div class="project-info">
+            <h3>Student Performance Insights</h3>
+            <p>Analyzed 1,000+ records. Test prep boosts math scores by 14.1 points.</p>
+            <div class="tags">
+              <span>Python</span><span>Pandas</span><span>Seaborn</span>
+            </div>
+            <div class="links">
+              <a href="https://colab.research.google.com/drive/1IVjW2rM9m2NWg7tA-_HilI6yO8BvCWCU" target="_blank">Colab →</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- F-1 Visa Analysis -->
-      <div class="project reverse">
-        <div class="project-gallery">
-          <img src="visa-insights_images/F1_denial_over_the_years.png" alt="Denial Trend">
-          <img src="visa-insights_images/F1_denial_rate_Region.png" alt="Regional Rates">
-          <img src="visa-insights_images/visa-issuances-2024.png" alt="Top Issuances">
-          <img src="visa-insights_images/Common_Denials(Estimated).png" alt="Denial Reasons">
-        </div>
-        <div class="project-info">
-          <h3>U.S. F-1 Visa Success Rate Analysis</h3>
-          <p>Explored State Department FY2024 data: 41% global denial rate. Visualized regional trends and primary refusal reasons under Section 214(b).</p>
-          <div class="tags">
-            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Public Data</span>
+        <!-- F-1 Visa -->
+        <div class="project-card">
+          <div class="project-gallery">
+            <img src="visa-insights_images/F1_denial_over_the_years.png" alt="Denial Trend">
+            <img src="visa-insights_images/F1_denial_rate_Region.png" alt="Regional Rates">
+            <img src="visa-insights_images/visa-issuances-2024.png" alt="Issuances">
+            <img src="visa-insights_images/Common_Denials(Estimated).png" alt="Reasons">
           </div>
-          <div class="links">
-            <a href="https://colab.research.google.com/drive/1xyVT_KxEtiGO1yuq5bYdcAwCq55lFnfn" target="_blank">Colab Notebook →</a>
-            <a href="visa-insights.html">Full Analysis →</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- PROJECTS SECTION -->
-  <section class="projects-section">
-    <div class="projects-container">
-      <!-- Project 1: General Analytics Dashboard -->
-      <div class="project-card">
-        <img src="https://towardsdatascience.com/wp-content/uploads/2021/06/1-9FgQrCfkIHqmZcT0Wyr8Q.png" alt="Interactive Analytics Dashboard with Plotly and Dash" loading="lazy">
-        <div class="project-info">
-          <h3>Real-Time Analytics Dashboard</h3>
-          <p>Built an interactive web dashboard to track key metrics using Plotly Dash. Features dynamic filtering, real-time updates, and customizable visualizations for business decision-making.</p>
-          <div class="project-tags">
-            <span>Python</span>
-            <span>Plotly</span>
-            <span>Dash</span>
-            <span>Pandas</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank">Live Demo →</a>
-            <a href="#" target="_blank">GitHub →</a>
+          <div class="project-info">
+            <h3>U.S. F-1 Visa Success Rate Analysis</h3>
+            <p>FY2024: 41% global denial rate. Visualized trends and Section 214(b) impact.</p>
+            <div class="tags">
+              <span>Python</span><span>Pandas</span><span>Seaborn</span>
+            </div>
+            <div class="links">
+              <a href="https://colab.research.google.com/drive/1xyVT_KxEtiGO1yuq5bYdcAwCq55lFnfn" target="_blank">Colab →</a>
+              <a href="visa-insights.html">Full Page →</a>
+            </div>
           </div>
         </div>
       </div>
-
-      <!Project of students>
-     <div class="project-card">
-  <div class="project-gallery" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px;">
-    <img src="portfolio_images/test-prep-impact.png" alt="Test Prep Impact" loading="lazy" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <img src="portfolio_images/parental-education.png" alt="Parental Education Effect" loading="lazy" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <img src="portfolio_images/gender-comparison.png" alt="Gender Scores" loading="lazy" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <img src="portfolio_images/correlation-heatmap.png" alt="Score Correlations" loading="lazy" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </div>
-  <div class="project-info">
-    <h3>Student Performance Insights</h3>
-    <p>Analyzed 1,000+ student exam records using Python and Seaborn. Key discovery: Completing test preparation boosts math scores by <strong>14.1 points</strong> on average. Also uncovered strong links between parental education and performance.</p>
-    <div class="project-tags">
-      <span>Python</span>
-      <span>Pandas</span>
-      <span>Seaborn</span>
-      <span>Matplotlib</span>
-      <span>Data Visualization</span>
-    </div>
-    <div class="project-links">
-      <a href="https://colab.research.google.com/drive/1IVjW2rM9m2NWg7tA-_HilI6yO8BvCWCU" target="_blank">View Interactive Notebook →</a>
-      <a href="https://github.com/yourusername/student-performance-analysis" target="_blank">GitHub Repo →</a>
-    </div>
-  </div>
-</div>
-
-      <!-- Project 3: Cybersecurity Threat Dashboard -->
-      <div class="project-card">
-        <img src="https://www.splunk.com/content/dam/splunk2/en_us/images/screenshots/products/category-security/securityposture-es.png" alt="Splunk Security Posture Dashboard" loading="lazy">
-        <div class="project-info">
-          <h3>Security Operations Dashboard (SOC Lab)</h3>
-          <p>Designed a real-time threat detection dashboard using Splunk SIEM concepts in a home lab environment. Monitored logs, identified anomalies, and visualized attack patterns.</p>
-          <div class="project-tags">
-            <span>Splunk</span>
-            <span>SIEM</span>
-            <span>Cybersecurity</span>
-            <span>Log Analysis</span>
-          </div>
-          <div class="project-links">
-            <a href="#" target="_blank">View Dashboard →</a>
-            <a href="#" target="_blank">GitHub →</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Add more projects here as you build them -->
-    </div>
-  </section>
-
-  <!-- Project 4: F1 VISA SUCCESS RATE -->
- <div class="project-card">
-  <div class="project-gallery" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px;">
-    <img src="visa-insights_images/F1_denial_over_the_years.png" alt="F-1 Denial Rate Trend" loading="lazy">
-    <img src="visa-insights_images/F1_denial_rate_Region.png" alt="Denial Rates by Region" loading="lazy">
-    <img src="visa-insights_images/visa-issuances-2024.png" alt="Top Countries Issuances" loading="lazy">
-    <img src="visa-insights_images/Common_Denials(Estimated).png" alt="Common Denial Reasons" loading="lazy">
-  </div>
-  <div class="project-info">
-    <h3>US F-1 Visa Success Rate Analysis</h3>
-    <p>Analyzed State Department FY2024 data: 41% global denial rate. Visualized trends, regional disparities, and factors impacting approvals.</p>
-    <div class="project-tags">
-      <span>Python</span>
-      <span>Pandas</span>
-      <span>Seaborn</span>
-      <span>Public Policy Data</span>
-    </div>
-    <div class="project-links">
-      <a href="https://colab.research.google.com/drive/1xyVT_KxEtiGO1yuq5bYdcAwCq55lFnfn" target="_blank">View Interactive Notebook →</a>
-      <a href="https://github.com/mrnate-101/mrnate-101.github.io/visa-analysis" target="_blank">GitHub Repo →</a>
-      <a href="visa-insights.html">Full Visa Insights →</a>
-    </div>
-  </div>
-</div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer id="contact" class="footer">
     <div class="container">
-      <p>© 2025 Nathaniel Gyarteng. Built with care.</p>
+      <p>© 2025 Nathaniel Gyarteng</p>
       <div class="social">
         <a href="https://linkedin.com/in/nathaniel-a-gyarteng" target="_blank">LinkedIn</a>
         <a href="https://github.com/mrnate-101" target="_blank">GitHub</a>
+        <a href="mailto:nathanielgyarteng@gmail.com">Email</a>
       </div>
     </div>
   </footer>
@@ -205,6 +208,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
- 
-
